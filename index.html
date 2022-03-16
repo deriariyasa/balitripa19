@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title> Balitrip </title>
-  <meta   charset="utf-8">
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="responsive" href="responsive.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balitrip</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
 </head>
 <body>
   <!--Bagian Header-->
   <!--Dibuat oleh Nurhawa Nizar Siagian-->
   <header>
     <div class="headerimg"> 
-      <h3>Selamat Datang di Website Balitrip.com</h3>
-      <p> Berpetualang menjelajahi pulau Bali dengan harga yang murah!</p>
+      <div class="container">
+        <h3>Selamat Datang di Website Balitrip.com</h3>
+        <p> Berpetualang menjelajahi pulau Bali dengan harga yang murah!</p>
+      </div>
     </div>
     <div class="header">
       <div class="header-logo">Balitrip<span>.</span></div>
@@ -24,20 +29,23 @@
           <li>Contact</li>
         </ul>
       </div>
+      <img class="menu-button"src="menu.png">
     </div>
   </header>
        <!--Bagian Main-->
     <!--Bagian Tentang Kami-->
     <!--Dibuat oleh Rama Auliya Hasanal Kanigara-->
   <div class="top-wrapper">
-    <div class="name">
-      <h1>Balitrip<span>.</span></h1>
-      <p>Jelajahi pulau Bali dengan pengetahuan dan pengalaman kami di dunia pariwisata.</p>
-      <p>Dengan pengalaman lebih dari 10 tahun kami siap memberikan pelayanan terbaik dalam mengatur kegiatan pariwisata Anda.</p>
-      <div class="btn-wrapper">
-        <a class="btn signup">Lebih lanjut</a>
+    <div class="container">
+      <div class="name">
+        <h1>Balitrip<span>.</span></h1>
+        <p>Jelajahi pulau Bali dengan pengetahuan dan pengalaman kami di dunia pariwisata.</p>
+        <p>Dengan pengalaman lebih dari 10 tahun kami siap memberikan pelayanan terbaik dalam mengatur kegiatan pariwisata Anda.</p>
+        <div class="btn-wrapper">
+          <a class="btn signup">Lebih lanjut</a>
+        </div>
       </div>
-    </div>
+      </div>
   </div>
 
 
@@ -73,7 +81,7 @@
       <div class="tour">
         <div class="paket">
           <div class="paket-icon">
-            <img src="img/gambar-3.jpg" class="img-btn">
+            <img src="gambar-3.jpg" class="img-btn">
             <h3>PAKET 5 HARI 4 MALAM</h3>
             <p>Paket ini merupakan pilihan paket liburan yang paling banyak dipilih, kami membuat paket-paket ini agar Anda lebih mudah memahami tempat mana yang harus dikunjungi dan dilakukan.</p>
             <span class="btn message">Selengkapnya</span>
@@ -96,45 +104,43 @@
   <!--Hubungi Kami-->
   <!--Dibuat oleh Rahmadal Nanda Saputra-->
   <div class="contact-form">
-      <div class="container">
-          <h3 class="section-title">Hubungi kami</h3>
+    <div class="container">
+        <h3 class="section-title">Hubungi Kami</h3>
+        
+        <div class="cf form-wrapper">                        
+            <p class="sub-section">Nama<span class="red-asterisk">*</span></p>
+            <input class="form-in">
+        
+            <p class="sub-section">E-mail/No Handphone/Akun Media Sosial<span class="red-asterisk">*</span></p>
+            <input class="form-in">
+        
+            <p class="sub-section">Pilih Topik<span class="red-asterisk">*</span></p>
+            <select class="select-topic"  >
+                <option value="ask">Pertanyaan Umum</option>
+                <option value="request">Request Objek Wisata</option>
+                <option value="date">Perubahan Jadwal</option>
+                <option value="problem">Keluhan Pelayanan</option>
+                <option value="advice">Kritik dan Saran</option>
+            </select>
+        
+            <p class="sub-section">Pesan<span class="red-asterisk">*</span></p>
+            <textarea class="form-in"></textarea>
+        
+            <p><span class="red-asterisk">*</span>Bidang Ini Wajib Diisi</p>
             
-          <div class="cf form-wrapper">                        
-              <p class="sub-section">Nama<span class="red-asterisk">*</span></p>
-              <input class="form-in">
-            
-              <p class="sub-section">E-mail/No Handphone/Akun Media Sosial<span class="red-asterisk">*</span></p>
-              <input class="form-in">
-            
-              <p class="sub-section">Pilih Subjek<span class="red-asterisk">*</span></p>
-              <select class="select-subject"  >
-                  <option value="ask">Pertanyaan Umum</option>
-                  <option value="request">Request Objek Wisata</option>
-                  <option value="date">Perubahan Jadwal</option>
-                  <option value="problem">Keluhan Pelayanan</option>
-                  <option value="advice">Kritik dan Saran</option>
-              </select>
-            
-              <p class="sub-section">Pesan<span class="red-asterisk">*</span></p>
-              <textarea class="form-in"></textarea>
-            
-              <p><span class="red-asterisk">*</span>Bidang Ini Wajib Diisi</p>
-                
-                <!--<div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>-->
+            <!--<div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>-->
 
-              <input class="contact-submit" type="submit" value="Kirim">
-            </div> 
+            <input class="contact-submit" type="submit" value="Kirim">
+        </div> 
 
-            <div class="cf cs-wrapper">
-              <img class="cs-img" src="./img/CS-img.png">  
-              <p class="cs-txt">Silahkan hubungi kami melalui formulir disamping</p>                   
-            </div>
-            
-            <div class="clear"></div>
+        <div class="cf cs-wrapper">
+            <img class="cs-img" src="CS-img.png">  
+            <p class="cs-txt">Silahkan hubungi kami melalui formulir disamping</p>                   
         </div>
-       
-      </div>
-
+        
+        <div class="clear"></div>
+    </div>
+  </div>
 
 
     <!--Footer-->
