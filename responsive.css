@@ -1,0 +1,76 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .paket {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .select-subject{
+    width :90%;
+    font-size: 12px;
+  }
+  .form-in {
+    width :90%;
+    font-size: 14px;
+  }
+  .contact-submit{
+    width:90%;
+    font-size: 16px;
+  }
+  .sub-section{
+    font-size: 14px;
+  }
+  .cs-img, .cs-txt{
+    margin-top: 50px;
+    margin-right: 50px;  
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .paket {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .message{
+    width :90%;
+    font-size: 14px;
+  }
+
+  .cf{
+     width:100%;
+  }
+  .select-subject{
+    width :100%;
+    font-size: 12px;
+  }
+  .form-in {
+    width :100%;
+    font-size: 14px;
+  }
+  .contact-submit{
+    width :100%;
+    font-size: 16px;
+  }
+  .sub-section{
+    font-size: 14px;
+  }
+  .cs-img, .cs-txt{
+    display:none;
+  }
+}
