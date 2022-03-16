@@ -1,0 +1,340 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  }
+
+  /*Header*/
+  .header-list ul li{
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+    position: relative;
+    cursor: pointer;
+  }
+
+
+  
+  .headerimg {
+    padding: 1px 1px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(img/penida-hd.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .header {
+    background: rgb(3, 184, 255) ;
+    color: #fff;
+    height: 90px;
+  }
+
+
+  .header span{
+    color: #ff4a4a;
+  }
+
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    cursor: pointer;
+  }
+
+   /*Tentang Kami*/
+  .top-wrapper {
+    padding: 70px 0 70px 0;
+    background-color: rgb(217, 230, 243);
+    text-align: center;
+  }
+
+  .name span{
+    color: #ff4a4a;
+  }
+
+  .top-wrapper h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .top-wrapper p {
+    text-align: center;
+  }
+
+  .btn-wrapper {
+    margin: 10px 0;
+  }
+
+  .signup {
+    background-color: rgb(56, 143, 230);
+  }
+
+  /*Paket Tour*/
+  .clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  color: white;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.img-btn {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.img-btn:hover{
+  opacity: 0.5;
+}
+
+.product-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 0;
+  color: black;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.paket {
+  float: left;
+  width: 50%;
+}
+
+.paket-icon {
+  position: relative;
+  padding-top: 50px;
+}
+
+.paket-icon p {
+  top: 44%;
+  width: 100%;
+  color: black;
+  padding: 0 20px 10px 20px
+}
+
+.paket-icon h3 {
+  top: 44%;
+  width: 100%;
+  color: black;
+  padding: 0 20px 0px 20px
+}
+
+.text-contents {
+  width: 100%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #4eb1e6;;
+  cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+}
+
+
+/*Hubungi Kami*/
+
+.contact-form {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(217, 230, 243);
+}
+
+.cf{
+    float: left;
+    width:50%;
+}
+.section-title {
+    border-bottom: 2px solid #153647;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.sub-section{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: auto;
+    
+}
+ 
+.form-in {
+    width :75%;
+    margin-bottom:10px;
+    padding: 10px;
+    font-size:16px;
+    border :1px solid rgb(217, 230, 243);
+   }
+
+.contact-submit{
+    padding: 15px;
+    margin-top: 20px;
+    width :75%;
+    background-color:#4eb1e6;
+    color:#e5edf1;
+    font-size: 18px;
+    border:none;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 0 7px #153647
+    
+}
+
+.select-subject{
+    width :75%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border :1px solid rgb(217, 230, 243);
+    margin-bottom:10px;
+}
+  
+.red-asterisk{
+    color:red;
+}
+
+.contact-submit:hover{
+    background-color: #0896e2;
+    cursor: pointer;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.cs-img, .cs-txt{
+    float: right;
+    margin-top: 30px;
+    margin-right: 90px;
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: #0896e2;
+    font-weight: bold;
+}
+
+
+/* Footer Area Style */
+.footer{
+  background: rgb(3, 184, 255) ;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  padding-top:145px;
+  padding-bottom:120px;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.footer-logo{
+  float: right;
+  font-size: 50px;
+  padding: 1px 80px;
+  margin-top: 0;
+}
+
+.copyright span{
+  color: #ff4a4a;
+}
+
+.social-icon a{
+  margin: 0 16px 20px 16px;
+  display:inline-block;
+}
+
+.social-icon p{
+  text-align: center;
+  margin: 0 16px 20px 16px;
+  display:inline-block;
+}
+
+.footer .fa{
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: deepskyblue;
+  Border-top-right-radius: 10px;
+  Border-bottom-left-radius: 10px;
+  background: white;
+  line-height: 2;
+  border: 10px solid #34495e;
+  transition: all 0.7s ease-in;
+}
+.footer .fa:hover {
+    opacity: 0.7;
+    border: 16px solid white;
+    transform: rotate(360deg);
+}
+
+.bordernow
+{
+  width:40px;
+  border-bottom: 2px solid white;
+  margin:0 auto;
+  margin-top: 20 px;
+}
