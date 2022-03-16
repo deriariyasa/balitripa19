@@ -7,6 +7,17 @@ body {
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
   }
 
+  .clear {
+    clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
   /*Header*/
   .header-list ul li{
     list-style: none;
@@ -16,8 +27,15 @@ body {
     cursor: pointer;
   }
 
+  .menu-button{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 20px 20px 0px 0px;
+    display: none;
+   
+  }
 
-  
   .headerimg {
     padding: 1px 1px;
     text-align: center;
@@ -75,16 +93,7 @@ body {
   }
 
   /*Paket Tour*/
-  .clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+ 
 
 .btn-wrapper {
   text-align: center;
@@ -204,7 +213,7 @@ body {
     width:50%;
 }
 .section-title {
-    border-bottom: 2px solid #153647;
+    border-bottom: 2px solid #4eb1e6;
     font-size: 28px;
     padding-bottom: 15px;
     margin-bottom: 20px;
@@ -222,8 +231,9 @@ body {
     margin-bottom:10px;
     padding: 10px;
     font-size:16px;
-    border :1px solid rgb(217, 230, 243);
-   }
+    border :none;
+}
+
 
 .contact-submit{
     padding: 15px;
@@ -239,7 +249,7 @@ body {
     
 }
 
-.select-subject{
+.select-topic{
     width :75%;
     height: 40px;
     font-size: 16px;
@@ -282,7 +292,7 @@ body {
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
-  padding-top:145px;
+  padding-top:120px;
   padding-bottom:120px;
   background-attachment: fixed;
   color: #fff;
@@ -330,7 +340,6 @@ body {
     border: 16px solid white;
     transform: rotate(360deg);
 }
-
 
 .bordernow
 {
